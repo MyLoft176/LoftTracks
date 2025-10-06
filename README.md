@@ -7,9 +7,7 @@ The primary purpose of this site is to serve as the "Application Homepage" requi
 ## Live Site
 The page is hosted using GitHub Pages.
 
-**URL:** `https://<your-username>.github.io/LoftTracks-Homepage/`
-
-*Remember to replace `<your-username>` with your actual GitHub username.*
+**URL:** `https://myloft176.github.io/LoftTracks/`
 
 ## Contents
 
