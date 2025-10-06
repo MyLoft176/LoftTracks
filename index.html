@@ -6,45 +6,75 @@
     <title>LoftTracks - AI Music</title>
     <style>
         body {
-            /* Color matched from logo background */
             background-color: #1A1A1A;
             color: #FFFFFF;
             font-family: Arial, sans-serif;
             text-align: center;
             padding: 50px;
+            /* Added to ensure footer stays at bottom if content is short */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .content {
+            flex: 1;
         }
         img {
-            /* Size slightly reduced */
             width: 180px;
             margin-bottom: 20px;
         }
         h1 {
             font-size: 48px;
-            /* Yellow matched from logo */
             color: #FDEE00;
         }
         h3 {
             font-size: 24px;
             font-weight: normal;
-            /* Remains white */
             color: #FFFFFF;
         }
         p {
             font-size: 18px;
             max-width: 600px;
             margin: 20px auto;
-            /* Yellow matched from logo */
             color: #FDEE00;
         }
+        /* --- START: Added Footer Styling --- */
+        footer {
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #888;
+        }
+        footer a {
+            color: #aaa;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            color: #FDEE00;
+        }
+        /* --- END: Added Footer Styling --- */
     </style>
 </head>
 <body>
 
-    <img src="https://i.postimg.cc/GtQLfjJK/Screenshot-21.png" alt="LoftTracks Logo">
+    <div class="content">
+        <img src="https://i.postimg.cc/GtQLfjJK/Screenshot-21.png" alt="LoftTracks Logo">
+        <h1>LoftTracks</h1>
+        <h3>AI Music</h3>
+        <p>Generate unique music tracks with artificial intelligence. The simplest way to create without limits.</p>
+    </div>
 
-    <h1>LoftTracks</h1>
-    <h3>AI Music</h3>
-    <p>Generate unique music tracks with artificial intelligence. The simplest way to create without limits.</p>
+    <!-- --- START: Added Footer --- -->
+    <footer>
+        <p>New York, USA © 2025</p>
+        <p>
+            <a href="./privacy.html">Privacy Policy</a>
+            |
+            <a href="./terms.html">Terms of Service</a>
+        </p>
+    </footer>
+    <!-- --- END: Added Footer --- -->
 
 </body>
 </html>
